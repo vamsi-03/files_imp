@@ -1,0 +1,22 @@
+Tasks for Today:
+
+--> comparator and comparable
+
+--> streams, methods in streams, check it out from baeldung
+
+--> some of the methods, to stress out from streams are, collect method, flatmap,parallel,
+
+--> functional Interfaces used in streams
+
+--> generics
+
+--> check it out,the upper bound and lower bound, in generics 
+
+--> lambda expressions in java
+
+--> File Handling techniques - relative path and absolute path.
+
+--> https://www.baeldung.com/java-groupingby-collector
+
+--> https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
+

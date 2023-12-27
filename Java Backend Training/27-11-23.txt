@@ -1,0 +1,26 @@
+Service
+ 
+Controller -  Recipient of all the incoming requests from the users and forwards thr requests to appropriate service/business layer class
+Business - Business layer get the requests from the controller and process it based on the written logic
+Data Access - The layer where all the DB interactions take place
+
+
+
+https://www.linkedin.com/pulse/monolithic-vs-microservices-architecture-case-study-netflix-asif
+
+
+Git: ---Check out:
+ 
+branch
+commit
+merge
+rebase
+checkout
+cherry-pick
+push
+reset
+
+Apache Maven:
+
+is a software project management and comprehension tool. Based on the concept of a project model (POM). 
+Maven can manage a project's

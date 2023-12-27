@@ -1,0 +1,14 @@
+--> Interceptors
+
+--> unit testing
+
+--> Reflections
+
+--> try to implement complex logics
+
+--> how pagination works and how multiple queries works
+
+--> findclient
+
+--> try using other repositories
+

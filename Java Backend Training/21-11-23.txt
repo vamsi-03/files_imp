@@ -1,0 +1,10 @@
+21-11-23
+Java Documentation
+
+https://teams.microsoft.com/l/message/19:meeting_Zjc4ZjM0YTgtOWVkMC00NGJmLWIwM2YtZmZkNWRmMGVhZjVi@thread.v2/1700559274046?context=%7B%22contextType%22%3A%22chat%22%7D
+
+Tasks:
+
+1) Explore on Diamond Problem
+2) Explore on Functional Interfaces, Function,Consumer, Predicate
+3) one assignment will be given and need to do that

@@ -1,0 +1,6 @@
+https://teams.microsoft.com/l/message/19:meeting_N2I5ZTYwYTktYjk5Ni00ZjM4LWIwMmEtNzUzZDg0ZGFjYTY3@thread.v2/1702011309197?context=%7B%22contextType%22%3A%22chat%22%7D
+
+https://www.baeldung.com/spring-boot-yaml-vs-properties
+
+https://medium.com/@ankithahjpgowda/api-gateway-in-spring-boot-3ea804003021
+

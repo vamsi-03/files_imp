@@ -1,0 +1,96 @@
+--> be consistent with the spaces
+
+--> follow the same conventions throughout the program....mean for loops, conditions, follow the conventions properly
+
+--> spaces between variables and equals must be consistent
+
+--> The method you are writing must be suitable to view in the screen, not more than that.
+
+--> use sonarlink extention for eclipse or whatever IDE you are using, it is best for understanding the error messages
+
+--> In one method maximum 15 conditions must be there or allowed. more than that will leave the developers hard to understand
+
+--> static variables can only be accessed from the static block.
+
+--> final,static can be combined and used for predefined methods and constants, which can be accessed troughout the program and not subjected for any modifications
+
+--> Volatile:
+    It is a keyword used in multithreading, when two threads are accessing same variable, the volatile keyword will ensure the atomicity.
+
+--> Transient:
+    
+serialization and deserialization:
+object -> stream of bytes -> Desired output: serialization
+object <- stream of bytes <- output: deserialization 
+
+When we are writing data into any txt file, xml file or db record, use transient, it will hide the field from showing out
+          
+
+--> Syncronised:
+   ensures that only one block will have access to the key then only it can be ready for the execution
+
+
+
+Strings:
+
+--> string is a sequence of characters
+
+--> string literal is known as, which is enclosed in ""
+
+--> difference between string and string literal is, string is created with new keyword, whereas string literals will be saved in string constant pool
+
+--> everytime, a string is created, it checks in the string constant pool , if it finds a match, it will points to that.
+
+--> when you are creating passwords, use char[] because string constant pool is a shared resource. so anyone can access it.
+
+--> string is immutable. it is not subjected for any changes.
+
+--> string is actually stored as byte array internally.
+
+--> StringBuilder sb = new StringBuilder("str") --> ['s','t','r'] -->stores like this
+    sb.append("1") --> ['s','t','r','1']
+    sb.toString()
+
+--> StringBuffer is safe with multithreading that's the only difference between stringbuffer and stringbuilder  
+
+--> copyonwriteArrayList
+
+--> List - ArrayList,LinkedList, copyonwriteArrayList
+
+--> Set - Hashset, Treeset, LinkedSet
+
+--> Comparator - is an interface, where we need to mention, what needs to be compared and on what elements we need to do that.
+
+
+
+
+
+-----------
+
+--> ananymous class
+
+--> Exception Handling
+
+--> what happens if we use multiple finally blocks
+======================
+      we can have multiple finally blocks in the code, it doesn't have any restrictions. 
+But the order of the finally blocks will be followed, means the blocks which are written first will be executed first.
+======================
+
+--> check with transient keyword, write some codes.
+============
+transient is a variables modifier used in serialization. At the time of serialization, 
+if we don’t want to save value of a particular variable in a file, then we use transient 
+keyword. When JVM comes across transient keyword, it ignores original value of the variable 
+and save default value of that variable data type.
+============================
+
+--> rotation of array (right or left), in O(n) time complexity and the space complexity should be O(1)
+
+--> covariant return types in core java array
+
+--> will arraylist shrink its size when we remove the elements from it.
+
+--> check whether we can take null values in LinkedHashset, also why no null values is allowed in Treeset reason. 
+
+--> 

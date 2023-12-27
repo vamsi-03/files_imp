@@ -1,0 +1,74 @@
+Application LifeCycle
+
+Develop - > Build -> code quality -> Repository -> server -> start application
+
+The above whole process is called the Devops Process (CI/CD pipeline-- continuous integration and continuous development pipeline)
+
+Maven only comes under Build step in the above process
+
+
+Code Quality Checks
+--> Critical
+--> High
+--> Medium
+--> Low
+--> Warning
+
+--> SONARQube is used for testing
+
+--> In maven if we do not give or mention the version it will pull the latest version
+
+--> maven - goals
+    -> clean --> tells explicitly to download any required depenedencies to install - delete the target folder, completey cleans the target folder and new files will be pasted in that folder
+    -> install --> target --> 
+    -> test --> runs the unit test cases.
+    -> dependencies -   
+
+
+commands:
+
+1) clean install -- to get some files in target folder
+
+2) dependency:tree - to know the dependencies---can be seen in console
+
+
+Spring Beans:
+
+Tight Coupling:
+
+@component, @Service, @Repository, @Bean: spring or springboot will take that class and create an object for that class and stored in the Spring Bean Container.
+ The above all are the annotations which can be given above the class and below the imports.
+
+
+@Autowired: spring will automatically inject the bean file in the class where the class has an object of another class
+
+--> Ask Joy to explain circular dependency
+
+@-all annotations are a metadata we provide to the compiler
+
+
+@configuration
+
+@ ComponentScan -- scans the entire class for components
+
+@ Enable Auto Configuration -- this will enable the configurations
+
+
+-----------------------------------
+
+When ever you need to get the beans from the other class to the class which you are working. The configuration will be as follows:
+
+@configuration
+public class configclass{
+	@Bean
+	public someclass class1{
+		return new class1();
+        }
+}
+
+
+Principles:
+
+--> Dependency Injection: 
+
+--> Inversion of Control: instead of developer we are asking springboot to inject the dependency
